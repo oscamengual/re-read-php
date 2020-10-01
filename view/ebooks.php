@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--Estilos enlazados-->
-<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
 </head>
 <body>
 
@@ -29,6 +29,32 @@
     </div>
 
     <h3>Toda la actualidad en eBook</h3>
+<!-----Nuevo desarollo formulario para filtrar autor------>
+
+<div>
+  <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <!-- <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select> -->
+    
+      <input type="submit" value="Submit">
+  </form>
+ </div>
+<?php
+if(isset($_POST['fautor'])){
+//filtrará los ebooks que se mostraran 
+}
+?>
+
       <!--<div class="ebook">
         <a target="_blank" href="https://www.casadellibro.com/libro-la-espada-del-destino-saga-geralt-de-rivia-2-edicion-coleccion-ista/9788498890433/1693161">
       <img src="../img/1.jpg" alt="ebook 1">

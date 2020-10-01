@@ -4,7 +4,7 @@ $host = "localhost";
 $user = "root";
 $pass = "";
 
-$db = "reread-php";
+$db = "reread.sql";
 
 $conn = mysqli_connect($host,$user, $pass, $db);
 
